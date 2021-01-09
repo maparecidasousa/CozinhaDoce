@@ -1,75 +1,126 @@
-*{
-margin: 0;
-padding: 0
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
-
-  font-size:15px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color:#d8e1e9
+body {
+  font-size: 15px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #d8e1e9;
 }
 
-#cabecalho{
-background-color:#f49cbb;
-text-align:center;
-padding:20px;
-
+#cabecalho {
+  background-color: #f49cbb;
+  text-align: center;
+  padding: 20px;
 }
 
-#logo{
-
-padding-bottom: 10px;
-color: #233d4d;
-font-size: 20px;
-font-style: italic;
-
+#logo {
+  padding-bottom: 10px;
+  color: #233d4d;
+  font-size: 20px;
+  font-style: italic;
 }
 
-.pink{
-color: #ffffff;
-
+.pink {
+  color: #ffffff;
 }
 
-#menu{
+#menu {
+  padding-bottom: 8px;
+  padding-top: 5px;
+}
 
-    padding-bottom: 8px;
-    padding-top:5px;
-    
-    }
+li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 2px;
+}
 
-    li{
-     list-style: none;
-     display: inline-block;
-     padding-right: 5px;
-     padding-left: 5px;
-     padding-bottom: 2px;
-     
-    }
+li:hover {
+  background-color: #fe5d9f;
+}
 
-    li:hover{
-      background-color:#fe5d9f
-     
-    }
+a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
 
+#principal1 {
+  width: 920px;
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
 
-    a{
-      text-decoration: none;
-      font-size: 20px;
-      font-weight: bold;
-      color: #ffffff
-    }
+#postagem {
+  width: 640px;
+  background-color: #ffffff;
+  float: left;
+  padding: 10px;
+}
 
-  #principal{
+#postagem2 {
+  width: 640px;
+  background-color: #ffffff;
+  float: left;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
 
-    width: 920px;
-    margin:0 10px;
-    background-color:#ffffff;
-  
-  }
+.imagem {
+  padding-top: 10px;
+}
 
-    
-    
+.link {
+  color: #fe5d9f;
+}
 
-    
+#topico1 {
+  color: #e36414;
+}
+
+#topico2 {
+  color: #679436;
+}
+
+.legenda {
+  padding-bottom: 5px;
+  font-size: 12px;
+}
+
+#lateral1 {
+  background-color: #ffffff;
+  width: 250px;
+  float: right;
+}
+
+#topicolateral {
+  padding: 10px;
+  text-align: center;
+}
+
+#topicolateral1 {
+  color: #679436;
+  background-color: #dbe7e4;
+  padding: 5px;
+}
+
+.textolateral1 {
+  padding: 0px 10px;
+   font-size: 14px;
+  text-align: justify;
+}
+
+#rodape {
+  background-color: #e2dadf;
+  clear: both;
+  padding: 12px;
+  text-align: center;
+}
