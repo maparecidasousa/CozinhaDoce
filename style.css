@@ -31,7 +31,7 @@ body {
   padding-top: 5px;
 }
 
-li {
+.limenu {
   list-style: none;
   display: inline-block;
   padding-right: 5px;
@@ -39,11 +39,11 @@ li {
   padding-bottom: 2px;
 }
 
-li:hover {
+.limenu:hover {
   background-color: #fe5d9f;
 }
 
-a {
+.limenu a {
   text-decoration: none;
   font-size: 20px;
   font-weight: bold;
@@ -82,6 +82,13 @@ a {
   color: #fe5d9f;
 }
 
+.linklateral {
+  color: #fe5d9f;
+  padding: 2px;
+  padding-top: 0px;
+  margin-bottom: 20px;
+}
+
 #topico1 {
   color: #e36414;
 }
@@ -101,7 +108,7 @@ a {
   float: right;
 }
 
-#topicolateral {
+.topicolateral {
   padding: 10px;
   text-align: center;
 }
@@ -114,13 +121,68 @@ a {
 
 .textolateral1 {
   padding: 0px 10px;
+  padding-bottom: 0px;
    font-size: 14px;
   text-align: justify;
 }
 
+.textolateral2 {
+  padding: 0px 10px;
+  padding-top: 15px;
+   font-size: 14px;
+  text-align: justify;
+}
+
+
+.lilateral {
+display: block;
+color: #fe5d9f;
+font-size: 15px;
+padding-left: 15px;
+padding-bottom: 5px;
+font-weight: bold;
+
+}
+
+
+
+
+.lilateral a {
+
+  color: #fe5d9f;
+  text-decoration: none;
+  
+}
+
+.lilateral:hover{
+background: none;
+text-decoration: underline;
+}
+
+.linhalateral{
+
+  border: 1px dashed #679436;
+ 
+margin-top: 10px;
+}
+
+#lateral2 {
+  background-color: #ffffff;
+  margin-top: 20px;
+  width: 250px;
+  float: right;
+}
+
+#topicolateral2 {
+  color: #679436;
+  background-color: #dbe7e4;
+  padding: 5px;
+}
+
+
 #rodape {
-  background-color: #e2dadf;
+  background-color: #caf0f8;
   clear: both;
-  padding: 12px;
+  padding: 20px;
   text-align: center;
 }
